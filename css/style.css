@@ -32,6 +32,12 @@ header nav .left a {
     color: var(--pure);
     text-decoration: none;
     margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .left a:hover {
+    color: var(--primary);
 }
 
 header nav {
@@ -40,4 +46,19 @@ header nav {
 
 header nav .branding {
     margin-right: 3rem;
+}
+
+.btn {
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--secondary);
 }
