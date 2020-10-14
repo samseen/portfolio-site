@@ -48,28 +48,6 @@ header nav .branding {
     margin-right: 3rem;
 }
 
-.btn {
-    padding: 0.8rem 3rem;
-    font-size: 1rem;
-    font-weight: 600;
-    border: 2px solid transparent;
-    outline: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: all .3s ease;
-}
-
-.btn-primary {
-    background: var(--primary);
-    color: var(--secondary);
-}
-
-.btn-primary:hover {
-    background:transparent;
-    border-color: var(--primary);
-    color: var(--primary);
-}
-
 .hero .left img {
     width: 400px;
 }
@@ -93,4 +71,9 @@ header nav .branding {
 
 .hero .right h1 span {
     color: var(--primary);
+}
+
+.hero .right p {
+    line-height: 1.9;
+    margin-bottom: 2rem;
 }
