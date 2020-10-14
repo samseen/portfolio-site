@@ -69,3 +69,7 @@ header nav .branding {
     border-color: var(--primary);
     color: var(--primary);
 }
+
+.hero .left img {
+    width: 400px;
+}
