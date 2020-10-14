@@ -20,6 +20,7 @@ body {
 
 header {
     background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
 .container {
@@ -48,6 +49,10 @@ header nav .branding {
     margin-right: 3rem;
 }
 
+.hero {
+    padding: 3rem 0;
+}
+
 .hero .left img {
     width: 400px;
 }
@@ -71,6 +76,10 @@ header nav .branding {
 
 .hero .right h1 span {
     color: var(--primary);
+}
+
+.hero .right {
+    margin-top: -7rem;
 }
 
 .hero .right p {
