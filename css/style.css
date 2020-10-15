@@ -90,3 +90,7 @@ header nav .branding {
 section {
     padding: 6rem 0;
 }
+
+section.about .about-me-img {
+    height: 450px;
+}
