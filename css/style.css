@@ -86,3 +86,7 @@ header nav .branding {
     line-height: 1.9;
     margin-bottom: 2rem;
 }
+
+section {
+    padding: 6rem 0;
+}
