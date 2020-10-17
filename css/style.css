@@ -183,6 +183,23 @@ section.services .card-wrapper .card {
     transition: all .3s ease;
 }
 
+section.services .card-wrapper .card .show-icon {
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    height: 107px;
+    background: var(--primary);
+}
+
+/* section.services .card-wrapper .card .show-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+} */
+
 section.services .card-wrapper .card img {
     position: absolute;
     top: -3.5rem;
