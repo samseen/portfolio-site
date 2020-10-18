@@ -295,5 +295,6 @@ section.reviews .slider-dots button {
 }
 
 section.reviews .dots li.slick-active button {
-    
+    background: var(--primary);
+    width: 20px;
 }
