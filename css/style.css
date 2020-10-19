@@ -298,3 +298,13 @@ section.reviews .dots li.slick-active button {
     background: var(--primary);
     width: 20px;
 }
+
+section.work {
+    background: var(--light);
+}
+
+section.work .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
