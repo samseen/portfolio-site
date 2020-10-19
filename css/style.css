@@ -308,3 +308,19 @@ section.work .card-wrapper {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
 }
+
+section.work .card-wrapper .card {
+    position: relative;
+}
+
+section.work .card-wrapper .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(61, 207, 211, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
