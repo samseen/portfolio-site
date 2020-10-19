@@ -311,6 +311,16 @@ section.work .card-wrapper {
 
 section.work .card-wrapper .card {
     position: relative;
+    height: 250px;
+}
+
+section.work .card-wrapper .card:hover .overlay{
+    opacity: 1;
+}
+
+section.work .card-wrapper .card img {
+    height: 100%;
+    width: 100%;
 }
 
 section.work .card-wrapper .card .overlay {
@@ -323,4 +333,13 @@ section.work .card-wrapper .card .overlay {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: var(--light);
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+section.work .card-wrapper .card .overlay a {
+    color: var(--secondary);
+    text-decoration: none;
 }
