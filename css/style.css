@@ -362,8 +362,16 @@ section.blog .card-wrapper .card {
     background: var(--pure);
 }
 
+section.blog .card-wrapper .card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 section.blog .card-wrapper .card .card-content {
-    padding: 2rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 section.blog .card-wrapper .card .card-content h1 {
