@@ -357,3 +357,11 @@ section.blog .card-wrapper {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
 }
+
+section.blog .card-wrapper .card {
+    background: var(--pure);
+}
+
+section.blog .card-wrapper .card .card-content {
+    padding: 2rem;
+}
