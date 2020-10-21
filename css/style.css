@@ -365,3 +365,15 @@ section.blog .card-wrapper .card {
 section.blog .card-wrapper .card .card-content {
     padding: 2rem;
 }
+
+section.blog .card-wrapper .card .card-content h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+section.blog .card-wrapper .card .card-content a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+section.blog .card-wrapper .card .card-content
