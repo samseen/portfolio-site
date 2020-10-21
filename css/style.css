@@ -376,4 +376,22 @@ section.blog .card-wrapper .card .card-content a {
     text-decoration: none;
 }
 
-section.blog .card-wrapper .card .card-content
+section.blog .card-wrapper .card .card-content a:hover {
+    color: var(--primary);
+}
+
+section.blog .card-wrapper .card .card-content span {
+    color: var(--ternary);
+    font-size: 0.8rem;
+}
+
+section.blog .card-wrapper .card .card-content p {
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section.blog .card-wrapper .card .card-content a.read-more {
+    font-size: 0.8rem;
+}
