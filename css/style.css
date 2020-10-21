@@ -351,3 +351,9 @@ section.blog {
 section.blog .section-heading {
     color: var(--pure);
 }
+
+section.blog .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
