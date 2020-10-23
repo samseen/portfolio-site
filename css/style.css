@@ -9,6 +9,7 @@
 }
 
 body {
+    height: 8000px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -409,4 +410,8 @@ section.blog .card-wrapper .card .card-content a.read-more {
 section.contact .card-wrapper {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+section.contact .card-wrapper .card {
+    text-align: center;
 }
