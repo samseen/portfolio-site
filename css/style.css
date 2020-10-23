@@ -470,3 +470,9 @@ section.contact .btn-wrapper {
     text-align: center;
     margin-top: 2rem;
 }
+
+footer {
+    background: var(--dark);
+    text-align: center;
+    padding: 5rem 0;
+}
