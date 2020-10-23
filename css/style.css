@@ -480,3 +480,7 @@ footer {
 footer .footer-logo {
     margin-bottom: 3rem;
 }
+
+footer .footer-socials a {
+    margin-right: 1rem;
+}
