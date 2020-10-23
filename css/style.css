@@ -476,3 +476,7 @@ footer {
     text-align: center;
     padding: 5rem 0;
 }
+
+footer .footer-logo {
+    margin-bottom: 3rem;
+}
