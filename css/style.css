@@ -9,7 +9,6 @@
 }
 
 body {
-    height: 8000px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -483,7 +482,8 @@ footer .footer-logo {
 }
 
 footer .footer-socials {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-right: -1rem;
 }
 
 footer .footer-socials a {
